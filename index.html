@@ -2,16 +2,53 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Lista de Tareas</title>
-  <link rel="stylesheet" href="estilo.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Lista de Tareas – Juan Pablo</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1>Mi Lista de Tareas</h1>
-  <p>Nombre del estudiante: __________________________</p>
+  <h1>📝 <span>Lista de Tareas</span></h1>
+  
+  <form id="formularioTarea">
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" maxlength="25" required />
 
-  <!-- Aquí irá el formulario y la lista generada con JavaScript -->
+    <label for="fecha">Fecha de entrega:</label>
+    <input type="date" id="fecha" required />
 
-  <script src="app.js"></script>
+    <label for="descripcion">Descripción:</label>
+    <textarea id="descripcion" rows="3" required></textarea>
+
+    <label for="tipo">Tipo:</label>
+    <select id="tipo" required>
+      <option value="">Seleccione un tipo</option>
+      <option>Universidad</option>
+      <option>Personal</option>
+      <option>Trabajo</option>
+      <option>Hobby</option>
+    </select>
+
+    <label>Prioridad:</label>
+    <div class="radio-group">
+      <input type="radio" id="urgente" name="prioridad" value="Urgente" required />
+      <label for="urgente" class="urgente">Urgente</label>
+
+      <input type="radio" id="normal" name="prioridad" value="Normal" />
+      <label for="normal" class="normal">Normal</label>
+
+      <input type="radio" id="baja" name="prioridad" value="Baja" />
+      <label for="baja" class="baja">Baja</label>
+    </div>
+
+    <button type="submit"><span class="icono-rojo">➕</span> Agregar tarea</button>
+  </form>
+
+  <section id="listaTareas"></section>
+
+  <script src="main.js"></script>
+  <footer>
+    <p>📌 Lista de tareas desarrollada por Juan Pablo Mayorga Torres</p>
+  </footer>
+  
 </body>
 </html>

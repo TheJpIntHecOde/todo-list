@@ -1,0 +1,191 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f7f7f7;
+    color: #2b2b2b;
+    max-width: 700px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #e63946;
+    text-align: center;
+  }
+  
+  form {
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+    border-left: 4px solid #e63946;
+  }
+  
+  input, textarea, select {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    border: 1px solid #bbb;
+    border-radius: 6px;
+    background-color: #fcfcfc;
+  }
+  
+  button {
+    background-color: #1d3557;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 100%;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #457b9d;
+  }
+  
+  .radio-group {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .tarea {
+    background-color: #e0fcf8;
+    border-left: 5px solid #00bfa6;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
+  .tarea h3 {
+    color: #1d3557;
+  }
+.radio-group input[type="radio"] {
+    display: none;
+  }
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f7f7f7;
+    color: #2b2b2b;
+    max-width: 700px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #e63946;
+    text-align: center;
+    font-family: 'Times New Roman', serif;
+  }
+  
+  form {
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+    border-left: 4px solid #e63946;
+  }
+  
+  input, textarea, select {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    border: 1px solid #bbb;
+    border-radius: 6px;
+    background-color: #fcfcfc;
+  }
+  
+  textarea {
+    resize: vertical;
+    min-height: 80px;
+    max-height: 200px;
+  }
+  
+  button {
+    background-color: #1d3557;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 100%;
+    font-weight: bold;
+    font-family: 'Times New Roman', serif;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #457b9d;
+  }
+  
+  .radio-group input[type="radio"] {
+    display: none;
+  }
+  
+  .radio-group label {
+    background-color: #f0f0f0;
+    padding: 6px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    font-weight: normal;
+    transition: all 0.3s ease;
+    font-family: 'Times New Roman', serif;
+  }
+  
+  .radio-group input[type="radio"]:checked + label.urgente {
+    background-color: #e63946;
+    color: white;
+    font-weight: bold;
+    border: 1px solid #c62828;
+  }
+  
+  .radio-group input[type="radio"]:checked + label.normal {
+    background-color: #f4a261;
+    color: white;
+    font-weight: bold;
+    border: 1px solid #d88700;
+  }
+  
+  .radio-group input[type="radio"]:checked + label.baja {
+    background-color: #2a9d8f;
+    color: white;
+    font-weight: bold;
+    border: 1px solid #1b7f71;
+  }
+  
+  .tarea {
+    background-color: #e0fcf8;
+    border-left: 5px solid #00bfa6;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
+  .tarea h3 {
+    color: #1d3557;
+    font-family: 'Times New Roman', serif;
+  }
+  
+  label {
+    font-family: 'Times New Roman', serif;
+  }
+  
+  .icono-rojo {
+    color: #e63946;
+    font-weight: bold;
+    margin-right: 5px;
+  }
+  footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 10px;
+    font-size: 0.9em;
+    color: #777;
+    font-family: 'Times New Roman', serif;
+  }
+  

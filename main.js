@@ -1,4 +1,4 @@
-// – Juan Pablo Mayorga Torres
+//– Juan Pablo Mayorga
 
 document.getElementById('formularioTarea').addEventListener('submit', function (e) {
     e.preventDefault();
